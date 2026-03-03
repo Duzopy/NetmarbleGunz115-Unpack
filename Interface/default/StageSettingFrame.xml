@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="StageList">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="StageSettingFrame">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>316</W>
+			<H>147</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<TEXT>게임 설정</TEXT>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+
+	<LABEL item="Label" parent="StageSettingFrame">
+		<BOUNDS>
+			<X>5</X>
+			<Y>31</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>게임  타입</TEXT>
+	</LABEL>	
+	<COMBOBOX item="StageType" parent="StageSettingFrame">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>78</X>
+			<Y>31</Y>
+			<W>231</W>
+			<H>16</H>
+		</BOUNDS>
+		<DROPSIZE>90</DROPSIZE>
+	</COMBOBOX>
+	<PICTURE item="StageType_combo" parent="StageType">
+		<BOUNDS>
+			<X>214</X>
+			<Y>0</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>down_combo.tga</BITMAP>
+	</PICTURE>
+
+	<LABEL item="Label" parent="StageSettingFrame">
+		<BOUNDS>
+			<X>5</X>
+			<Y>52</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>최대  인원</TEXT>
+	</LABEL>	
+	<COMBOBOX item="StageMaxPlayer" parent="StageSettingFrame">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>78</X>
+			<Y>52</Y>
+			<W>71</W>
+			<H>16</H>
+		</BOUNDS>
+		<DROPSIZE>120</DROPSIZE>
+	</COMBOBOX>	
+	<PICTURE item="StageMaxPlayer_combo" parent="StageMaxPlayer">
+		<BOUNDS>
+			<X>54</X>
+			<Y>0</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>down_combo.tga</BITMAP>
+	</PICTURE>
+
+	<LABEL item="Label" parent="StageSettingFrame">
+		<BOUNDS>
+			<X>5</X>
+			<Y>73</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>라  운  드</TEXT>
+	</LABEL>	
+	<COMBOBOX item="StageRoundCount" parent="StageSettingFrame">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>78</X>
+			<Y>73</Y>
+			<W>71</W>
+			<H>16</H>
+		</BOUNDS>
+		<DROPSIZE>120</DROPSIZE>
+	</COMBOBOX>	
+	<PICTURE item="StageRoundCount_combo" parent="StageRoundCount">
+		<BOUNDS>
+			<X>54</X>
+			<Y>0</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>down_combo.tga</BITMAP>
+	</PICTURE>
+
+	<LABEL item="Label" parent="StageSettingFrame">
+		<BOUNDS>
+			<X>5</X>
+			<Y>94</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>제한  시간</TEXT>
+	</LABEL>	
+	<COMBOBOX item="StageLimitTime" parent="StageSettingFrame">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>78</X>
+			<Y>94</Y>
+			<W>71</W>
+			<H>16</H>
+		</BOUNDS>
+		<DROPSIZE>210</DROPSIZE>
+	</COMBOBOX>	
+	<PICTURE item="StageRoundCount_combo" parent="StageLimitTime">
+		<BOUNDS>
+			<X>54</X>
+			<Y>0</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>down_combo.tga</BITMAP>
+	</PICTURE>
+
+	<LABEL item="Label" parent="StageSettingFrame">
+		<BOUNDS>
+			<X>164</X>
+			<Y>52</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>레벨  제한</TEXT>
+	</LABEL>	
+	<COMBOBOX item="StageLevelLimit" parent="StageSettingFrame">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>238</X>
+			<Y>52</Y>
+			<W>71</W>
+			<H>16</H>
+		</BOUNDS>
+		<DROPSIZE>80</DROPSIZE>
+	</COMBOBOX>
+	<PICTURE item="StageLevelLimit_combo" parent="StageLevelLimit">
+		<BOUNDS>
+			<X>54</X>
+			<Y>0</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>down_combo.tga</BITMAP>
+	</PICTURE>
+
+	<LABEL item="Label" parent="StageSettingFrame">
+		<BOUNDS>
+			<X>164</X>
+			<Y>73</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>팀킬  여부</TEXT>
+	</LABEL>	
+	<COMBOBOX item="StageTeamKill" parent="StageSettingFrame">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>238</X>
+			<Y>73</Y>
+			<W>71</W>
+			<H>16</H>
+		</BOUNDS>
+		<DROPSIZE>40</DROPSIZE>
+		<COMBOTYPE>1</COMBOTYPE>
+		<COMBOFIRSTSIZE>51</COMBOFIRSTSIZE>
+	</COMBOBOX>
+	<PICTURE item="StageTeamKillBtn_combo" parent="StageTeamKill">
+		<BOUNDS>
+			<X>54</X>
+			<Y>0</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>down_combo.tga</BITMAP>
+	</PICTURE>
+
+	<LABEL item="Label" parent="StageSettingFrame">
+		<BOUNDS>
+			<X>164</X>
+			<Y>94</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>게임중참가</TEXT>
+	</LABEL>	
+	<COMBOBOX item="Stageintrude" parent="StageSettingFrame">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>238</X>
+			<Y>94</Y>
+			<W>71</W>
+			<H>16</H>
+		</BOUNDS>
+		<DROPSIZE>40</DROPSIZE>
+		<COMBOTYPE>1</COMBOTYPE>
+		<COMBOFIRSTSIZE>51</COMBOFIRSTSIZE>
+	</COMBOBOX>
+	<PICTURE item="StageintrudeBtn_combo" parent="Stageintrude">
+		<BOUNDS>
+			<X>54</X>
+			<Y>0</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>down_combo.tga</BITMAP>
+	</PICTURE>
+
+<!--
+	<BUTTON item="StageTeamKillBtn" parent="StageSettingFrame">
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>78</X>
+			<Y>73</Y>
+			<W>71</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</BUTTON>
+-->
+
+	<!-- 버튼 -->
+
+	<BUTTON item="StageSettingApplyBtn" parent="StageSettingFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>151</X>
+			<Y>120</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>확 인(&amp;O)</TEXT>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+	</BUTTON>
+	<BUTTON item="ParentClose" parent="StageSettingFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>230</X>
+			<Y>120</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>취 소(&amp;X)</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>

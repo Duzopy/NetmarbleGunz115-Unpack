@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="SelChar">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="CharSelection">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>-1</W>
+			<H>-1</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+	<FRAME item="CS_Frame" parent="CharSelection">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>584</X>
+			<Y>278</Y>
+			<W>214</W>
+			<H>320</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>캐릭터 정보</TEXT>
+		<TITLEBAR>true</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+	</FRAME>
+
+<!-- Char_Info -->
+	<FRAME item="Char_infoGroup" parent="CS_Frame">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>40</Y>
+			<W>213</W>
+			<H>298</H>
+		</BOUNDS>
+		<VISIBLE>true</VISIBLE>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<MOVABLE>false</MOVABLE>
+	</FRAME>
+	<LABEL item="Label" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>3</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>이름</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>19</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>성별</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>35</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>레벨</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>51</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>XP</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>67</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>BP</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>83</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>HP</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>99</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>AP</TEXT>
+	</LABEL>
+
+<!-- Equip_Info -->
+	<FRAME item="Equip_InfoGroup" parent="CS_Frame">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>40</Y>
+			<W>213</W>
+			<H>298</H>
+		</BOUNDS>
+		<VISIBLE>false</VISIBLE>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<MOVABLE>false</MOVABLE>
+	</FRAME>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>3</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Head</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>19</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Chest</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>35</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Hands</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>51</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Legs</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>67</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Feet</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>83</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>L.Finger</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>99</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>R.Finger</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>115</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Melee</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>131</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Primary</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>147</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Secondary</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>163</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Item Slot 1</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>179</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>Item Slot 2</TEXT>
+	</LABEL>
+
+
+
+<!-- 프로그램에서 세팅해주는 Label -->
+<!-- Char_Info Label -->
+
+	<LABEL item="CS_NameLabel" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>3</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_SexLabel" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>19</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_LevelLabel" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>35</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_XPLabel" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>51</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_BPLabel" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>67</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_HPLabel" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>83</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_APLabel" parent="Char_infoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>99</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+
+	<!-- Equip_Info Label -->
+
+	<LABEL item="CS_HeadLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>3</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_ChestLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>19</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_HandsLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>35</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_LegsLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>51</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_FeetLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>67</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_LFingerLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>83</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_RFingerLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>99</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_MeleeLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>115</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_PrimaryLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>131</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_SecondaryLabel" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>147</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_Item1Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>163</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<LABEL item="CS_Item2Label" parent="Equip_InfoGroup">
+		<BOUNDS>
+			<X>90</X>
+			<Y>179</Y>
+			<W>120</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+
+	<!-- 메뉴 버튼들 -->
+
+	<BUTTON item="ShowChar_infoGroup" parent="CS_Frame">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>20</Y>
+			<W>107</W>
+			<H>19</H>
+		</BOUNDS>
+		<TEXT>기본 정보</TEXT>
+		<PUSHBUTTON/>
+		<SETCHECK/>
+	</BUTTON>
+	<BUTTON item="ShowEquip_InfoGroup" parent="CS_Frame">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<BOUNDS>
+			<X>107</X>
+			<Y>20</Y>
+			<W>107</W>
+			<H>19</H>
+		</BOUNDS>
+		<TEXT>장비 아이템</TEXT>
+		<PUSHBUTTON/>
+	</BUTTON>
+	<BUTTON item="CS_SelectChar" parent="CS_Frame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>46</X>
+			<Y>270</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>선 택(&amp;G)</TEXT>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+	</BUTTON>
+	<BUTTON item="CS_DeleteChar" parent="CS_Frame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>46</X>
+			<Y>293</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>삭 제(&amp;D)</TEXT>
+		<CONFIRMMESSAGE>캐릭터를 삭제하시겠습니까?</CONFIRMMESSAGE>
+		<CONFIRMLOOK>NormalFrameLook</CONFIRMLOOK>
+	</BUTTON>
+	<BUTTON item="CS_CreateChar" parent="CS_Frame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>125</X>
+			<Y>270</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>생 성(&amp;C)</TEXT>
+	</BUTTON>
+	<BUTTON item="CS_Prev" parent="CS_Frame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>125</X>
+			<Y>293</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+		<TEXT>로그아웃(&amp;X)</TEXT>
+	</BUTTON>
+	<COMBOBOX item="CS_Name" parent="CS_Frame">
+		<COMBOBOXLOOK>NormalButtonLook</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBox2Look</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>23</X>
+			<Y>239</Y>
+			<W>167</W>
+			<H>20</H>
+		</BOUNDS>
+		<LISTITEM></LISTITEM>
+		<LISTITEM></LISTITEM>
+		<LISTITEM></LISTITEM>
+		<LISTITEM></LISTITEM>
+		<DROPSIZE>80</DROPSIZE>
+	</COMBOBOX>
+	<PICTURE item="CS_Name_combo" parent="CS_Name">
+		<BOUNDS>
+			<X>15</X>
+			<Y>2</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>down_combo.tga</BITMAP>
+	</PICTURE>
+	<BMBUTTON item="CS_Name_Pre" parent="CS_Frame">
+		<BOUNDS>
+			<X>3</X>
+			<Y>239</Y>
+			<W>19</W>
+			<H>19</H>
+		</BOUNDS>
+			<BITMAP type="up">box_arrow_left.tga</BITMAP>
+			<BITMAP type="over">box_arrow_left.tga</BITMAP>
+			<BITMAP type="down">box_arrow_left.tga</BITMAP>
+	</BMBUTTON>
+	<BMBUTTON item="CS_Name_Next" parent="CS_Frame">
+		<BOUNDS>
+			<X>190</X>
+			<Y>239</Y>
+			<W>19</W>
+			<H>19</H>
+		</BOUNDS>
+			<BITMAP type="up">box_arrow_right.tga</BITMAP>
+			<BITMAP type="over">box_arrow_right.tga</BITMAP>
+			<BITMAP type="down">box_arrow_right.tga</BITMAP>
+	</BMBUTTON>
+
+</XML>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="ChannelList">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="ChannelListFrame">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>150</Y>
+			<W>378</W>
+			<H>300</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>채널 리스트</TEXT>
+	</FRAME>
+	<LISTBOX item="ChannelList" parent="ChannelListFrame">
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>0</X>
+			<Y>20</Y>
+			<W>378</W>
+			<H>200</H>
+		</BOUNDS>
+	</LISTBOX>
+<!--
+	<LABEL item="Label" parent="ChannelListFrame">
+		<BOUNDS>
+			<X>3</X>
+			<Y>229</Y>
+			<W>75</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>채널  제목</TEXT>
+	</LABEL>
+-->
+<!--	<EDIT item="ChannelName" parent="ChannelListFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<PASSWORD>false</PASSWORD>
+		<BOUNDS>
+			<X>78</X>
+			<Y>227</Y>
+			<W>293</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</EDIT>
+	<LABEL item="Label" parent="ChannelListFrame">
+		<BOUNDS>
+			<X>3</X>
+			<Y>250</Y>
+			<W>75</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>비밀  번호</TEXT>
+	</LABEL>
+	<EDIT item="ChannelPassword" parent="ChannelListFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<PASSWORD>true</PASSWORD>
+		<BOUNDS>
+			<X>78</X>
+			<Y>248</Y>
+			<W>293</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</EDIT>-->
+	<BUTTON item="ChannelJoin" parent="ChannelListFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>213</X>
+			<Y>273</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>확 인 (&amp;O)</TEXT>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+	</BUTTON>
+	<BUTTON item="ChannelListClose" parent="ChannelListFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>292</X>
+			<Y>273</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>취 소 (&amp;X)</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>

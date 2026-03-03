@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Inventory">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="InventoryFrame">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>10</X>
+			<Y>220</Y>
+			<W>250</W>
+			<H>200</H>
+		</BOUNDS>
+		<TEXT>Inventory</TEXT>
+		<CLOSE_BUTTON>
+			<ANCHORS>
+				<LEFT>false</LEFT>
+				<TOP>true</TOP>
+				<RIGHT>true</RIGHT>
+				<BOTTOM>false</BOTTOM>
+			</ANCHORS>
+			<BOUNDS>
+				<X>235</X>
+				<Y>2</Y>
+				<W>11</W>
+				<H>11</H>
+			</BOUNDS>			
+		</CLOSE_BUTTON>
+		<MINIMIZE_BUTTON>
+			<ANCHORS>
+				<LEFT>false</LEFT>
+				<TOP>true</TOP>
+				<RIGHT>true</RIGHT>
+				<BOTTOM>false</BOTTOM>
+			</ANCHORS>
+			<BOUNDS>
+				<X>220</X>
+				<Y>2</Y>
+				<W>11</W>
+				<H>11</H>
+			</BOUNDS>			
+		</MINIMIZE_BUTTON>
+	</FRAME>
+<!--
+	<ITEMBOX parent="InventoryFrame">
+		<COLS>6</COLS>
+		<ROWS>5</ROWS>
+		<BOUNDS>
+			<X>10</X>
+			<Y>50</Y>
+			<W>180</W>
+			<H>80</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<SLOTBITMAP>itemslot.png</SLOTBITMAP>
+	</ITEMBOX>
+-->
+	<LISTBOX item="ItemList" parent="InventoryFrame">
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>8</X>
+			<Y>20</Y>
+			<W>234</W>
+			<H>170</H>
+		</BOUNDS>
+	</LISTBOX>
+	
+</XML>

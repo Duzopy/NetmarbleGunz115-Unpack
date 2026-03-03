@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Logo">
+	<PICTURE item="Logo">
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>0</W>
+			<H>0</H>
+		</BOUNDS>
+		<BITMAP>gunzlogo.tga</BITMAP>
+	</PICTURE>
+	<PICTURE item="Logo">
+		<BOUNDS>
+			<X>60</X>
+			<Y>0</Y>
+			<W>0</W>
+			<H>0</H>
+		</BOUNDS>
+		<BITMAP>maietlogo.tga</BITMAP>
+	</PICTURE>
+</XML>

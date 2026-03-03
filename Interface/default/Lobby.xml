@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Lobby">
+	
+	<!--Root-->
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="Lobby">
+		<FRAMELOOK>LobbyFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>true</VISIBLE>
+	</FRAME>
+
+	<!-- 로고 -->
+<!--
+	<PICTURE item="Logo" parent="Lobby">
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>138</W>
+			<H>60</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BITMAP>title.tga</BITMAP>
+	</PICTURE>
+	-->
+<!--
+	<PICTURE item="Logo" parent="Lobby">
+		<BOUNDS>
+			<X>357</X>
+			<Y>0</Y>
+			<W>443</W>
+			<H>60</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BITMAP>ad.png</BITMAP>
+	</PICTURE>
+-->
+<!--
+	<LABEL item="ChannelChattingLabel" parent="Lobby">
+		<BOUNDS>
+			<X>20</X>
+			<Y>20</Y>
+			<W>440</W>
+			<H>18</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<TEXT>채널 채팅</TEXT>
+	</LABEL>
+	-->
+	
+	
+		<!-- 플레이어 리스트 -->
+<!--
+	<CHARACTERVIEWLIST item="ChannelPlayerList" parent="Lobby">
+		<BOUNDS>
+			<X>611</X>
+			<Y>369</Y>
+			<W>165</W>
+			<H>179</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<ITEMWIDTH>85</ITEMWIDTH>
+	</CHARACTERVIEWLIST>
+	-->
+
+	<!--
+	<PICTURE item="Frame11_7" parent="Lobby">
+		<BOUNDS>
+			<X>523</X>
+			<Y>78</Y>
+			<W>0</W>
+			<H>0</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BITMAP>frame11_7.bmp</BITMAP>
+	</PICTURE>
+	-->
+<!-- 전체보기,친구보기, 클랜보기 버튼은 코드에는 들어가 있지만 현재는 적용하지 않으므로 주석처리하였다. - 버드
+	<BUTTON item="ChannelPlayerList_all" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>543</X>
+			<Y>78</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<TEXT>전체 보기</TEXT>
+		<PUSHBUTTON/>
+		<SETCHECK/>
+	</BUTTON>
+	<BUTTON item="ChannelPlayerList_friend" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>622</X>
+			<Y>78</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<TEXT>친구 보기</TEXT>
+		<PUSHBUTTON/>
+	</BUTTON>
+	<BUTTON item="ChannelPlayerList_clan" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>701</X>
+			<Y>78</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<TEXT>클랜 보기</TEXT>
+		<PUSHBUTTON/>
+	</BUTTON>
+-->
+<!--
+	<BUTTON item="OptionFrame" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>701</X>
+			<Y>78</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<TEXT>옵 션(&amp;O)</TEXT>
+	</BUTTON>
+	-->
+	<!--
+	
+	-->
+
+<!--
+	<BMBUTTON item="ChannelPlayerList_pre" parent="ChannelPlayerList">
+		<BOUNDS>
+			<X>0</X>
+			<Y>20</Y>
+			<W>20</W>
+			<H>113</H>
+		</BOUNDS>
+			<BITMAP type="up">cha_list_button_0_0.bmp</BITMAP>
+			<BITMAP type="over">cha_list_button_0_1.bmp</BITMAP>
+			<BITMAP type="down">cha_list_button_0_2.bmp</BITMAP>
+	</BMBUTTON>
+	<BMBUTTON item="ChannelPlayerList_next" parent="ChannelPlayerList">
+		<BOUNDS>
+			<X>778</X>
+			<Y>20</Y>
+			<W>20</W>
+			<H>113</H>
+		</BOUNDS>
+			<BITMAP type="up">cha_list_button_1_0.bmp</BITMAP>
+			<BITMAP type="over">cha_list_button_1_1.bmp</BITMAP>
+			<BITMAP type="down">cha_list_button_1_2.bmp</BITMAP>
+	</BMBUTTON>
+-->
+
+	<!-- 캐릭터 뷰어 -->
+<!--
+	<FRAME item="Lobby_Charviewer1" parent="Lobby">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>214</Y>
+			<W>198</W>
+			<H>350</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT></TEXT>
+		<TITLEBAR>true</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+	</FRAME>
+	<CHARACTERVIEW item="Lobby_Charviewer1_Char" parent="Lobby_Charviewer1">
+		<BOUNDS>
+			<X>20</X>
+			<Y>20</Y>
+			<W>180</W>
+			<H>260</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<VISIBLEEQUIPMENT>false</VISIBLEEQUIPMENT>
+	</CHARACTERVIEW>
+-->
+	<!-- 캐릭 이름 넣을곳 -->
+<!--
+	<LABEL item="Lobby_Charviewer_NameLable" parent="Lobby_Charviewer1">
+		<BOUNDS>
+			<X>5</X>
+			<Y>20</Y>
+			<W>188</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	-->
+	<!--
+	<BUTTON item="Lobby_Charviewer_info" parent="Lobby_Charviewer1">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>330</Y>
+			<W>198</W>
+			<H>20</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>정보 보기</TEXT>
+	</BUTTON>
+	-->
+<!--
+	<BMBUTTON item="Lobby_Charviewer1_L" parent="Lobby_Charviewer1">
+		<BOUNDS>
+			<X>0</X>
+			<Y>330</Y>
+			<W>20</W>
+			<H>20</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+			<BITMAP type="up">rotate01_L_0.bmp</BITMAP>
+			<BITMAP type="over">rotate01_L_1.bmp</BITMAP>
+			<BITMAP type="down">rotate01_L_2.bmp</BITMAP>
+	</BMBUTTON>
+	<BMBUTTON item="Lobby_Charviewer1_R" parent="Lobby_Charviewer1">
+		<BOUNDS>
+			<X>178</X>
+			<Y>330</Y>
+			<W>20</W>
+			<H>20</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+			<BITMAP type="up">rotate01_R_0.bmp</BITMAP>
+			<BITMAP type="over">rotate01_R_1.bmp</BITMAP>
+			<BITMAP type="down">rotate01_R_2.bmp</BITMAP>
+	</BMBUTTON>
+-->
+	
+	
+<!--
+	<FRAME item="Lobby_ChatFrame" parent="Lobby">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>201</X>
+			<Y>214</Y>
+			<W>378</W>
+			<H>350</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT></TEXT>
+		<TITLEBAR>true</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+	</FRAME>
+
+	<LISTBOX item="ChannelChattingOutput" parent="Lobby_ChatFrame">
+		<LISTBOXLOOK>NormalListBoxLook</LISTBOXLOOK>
+		<BOUNDS>
+			<X>2</X>
+			<Y>20</Y>
+			<W>374</W>
+			<H>310</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<SELECTED>false</SELECTED>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+		<TEXT></TEXT>
+	</LISTBOX>
+	<EDIT item="ChannelPlayerNameInput" parent="Lobby_ChatFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>331</Y>
+			<W>94</W>
+			<H>16</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+	</EDIT>
+	<BMBUTTON item="ChannelPlayerNameInput_combo" parent="ChannelPlayerNameInput">
+		<BOUNDS>
+			<X>79</X>
+			<Y>1</Y>
+			<W>14</W>
+			<H>14</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+			<BITMAP type="up">chat_combo_0.bmp</BITMAP>
+			<BITMAP type="over">chat_combo_1.bmp</BITMAP>
+			<BITMAP type="down">chat_combo_2.bmp</BITMAP>
+	</BMBUTTON>
+	<EDIT item="ChannelChattingInput" parent="Lobby_ChatFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>97</X>
+			<Y>331</Y>
+			<W>262</W>
+			<H>16</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>TRUE</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+	</EDIT>
+	-->
+
+	<!--
+	<LABEL item="ChannelPlayerLabel" parent="Lobby">
+		<BOUNDS>
+			<X>460</X>
+			<Y>20</Y>
+			<W>160</W>
+			<H>18</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<TEXT>채널 플레이어</TEXT>
+	</LABEL>
+	-->
+	<!--
+	<LISTBOX item="ChannelPlayerList" parent="Lobby">
+		<BOUNDS>
+			<X>460</X>
+			<Y>140</Y>
+			<W>160</W>
+			<H>280</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+	</LISTBOX>
+	-->
+
+	<!-- 게임 리스트 -->
+	<ROOMLIST item="Lobby_StageList" parent="Lobby">
+	<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>25</X>
+			<Y>75</Y>
+			<W>750</W>
+			<H>300</H>
+		</BOUNDS>
+		<BITMAP type="frame">room-list.tga</BITMAP>
+		<BITMAP type ="back">banner_Mansion.tga</BITMAP>
+		<BITMAP type="back">banner_Prison.tga</BITMAP>
+		<BITMAP type="back">banner_Station.tga</BITMAP>
+		<BITMAP type="icon" mode="0">death-mode.tga</BITMAP>
+		<BITMAP type="icon" mode="2">Gladiator-mode.tga</BITMAP>
+		<BITMAP type="icon" mode="1">teamdeath-mode.tga</BITMAP>
+		<BITMAP type="icon" mode="3">teamGladiator-mode.tga</BITMAP>
+		<SIZE type="width">355</SIZE>
+		<SIZE type="height">47</SIZE>
+		<TEXT></TEXT>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+	</ROOMLIST>
+
+	<BMBUTTON item="StageBeforeBtn" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>756</X>
+			<Y>80</Y>
+			<W>10</W>
+			<H>150</H>
+		</BOUNDS>
+		<BITMAP type="up">over_up.tga</BITMAP>
+		<BITMAP type="over">over_up.tga</BITMAP>
+		<BITMAP type="down">under_up.tga</BITMAP>
+		<TEXT></TEXT>
+		<STRETCH/>
+	</BMBUTTON>
+	<BMBUTTON item="StageAfterBtn" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>756</X>
+			<Y>210</Y>
+			<W>10</W>
+			<H>150</H>
+		</BOUNDS>
+		<BITMAP type="up">over_down.tga</BITMAP>
+		<BITMAP type="over">over_down.tga</BITMAP>
+		<BITMAP type="down">under_down.tga</BITMAP>
+		<TEXT></TEXT>
+		<STRETCH/>
+	</BMBUTTON>
+
+
+	<BMBUTTON item="StageJoin" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>600</X>
+			<Y>332</Y>
+			<W>88</W>
+			<H>33</H>
+		</BOUNDS>
+		<BITMAP type="up">button02.tga</BITMAP>
+		<BITMAP type="over">button02.tga</BITMAP>
+		<BITMAP type="down">button02.tga</BITMAP>
+		<STRETCH/>
+		<TEXT>게임 참가</TEXT>
+	</BMBUTTON>
+	<BMBUTTON item="StageCreateFrameCaller" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>695</X>
+			<Y>332</Y>
+			<W>88</W>
+			<H>33</H>
+		</BOUNDS>
+		<BITMAP type="up">button02.tga</BITMAP>
+		<BITMAP type="over">button02.tga</BITMAP>
+		<BITMAP type="down">button02.tga</BITMAP>
+		<STRETCH/>
+		<TEXT>게임 생성</TEXT>
+	</BMBUTTON>
+	
+	<PLAYERLISTBOX item="LobbyChannelPlayerList" parent = "Lobby" >
+		<LISTBOXLOOK>EquipListBoxLook</LISTBOXLOOK>
+		
+		<BOUNDS>
+			<X>611</X>
+			<Y>369</Y>
+			<W>145</W>
+			<H>189</H>
+		</BOUNDS>
+<!--		
+		<IMAGE type="slot">player-list.tga</IMAGE>
+		<STRETCH/>
+		<SIZE type="width">139</SIZE>
+		<SIZE type="height">34</SIZE>
+-->		
+		<SELECTED>false</SELECTED>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+	
+	</PLAYERLISTBOX>
+	<BMBUTTON item="LobbyChannelPlayerListPrev" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>758</X>
+			<Y>369</Y>
+			<W>20</W>
+			<H>90</H>
+		</BOUNDS>
+		<BITMAP type="up">under_up.tga</BITMAP>
+		<BITMAP type="over">under_up.tga</BITMAP>
+		<BITMAP type="down">under_up.tga</BITMAP>
+		<STRETCH/>
+		<TEXT></TEXT>
+	</BMBUTTON>
+	<BMBUTTON item="LobbyChannelPlayerListNext" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>758</X>
+			<Y>459</Y>
+			<W>20</W>
+			<H>90</H>
+		</BOUNDS>
+		<BITMAP type="up">under_down.tga</BITMAP>
+		<BITMAP type="over">under_down.tga</BITMAP>
+		<BITMAP type="down">under_down.tga</BITMAP>
+		<STRETCH/>
+		<TEXT></TEXT>
+	</BMBUTTON>
+	
+	<!--
+	<FRAME item="Lobby_StageList" parent="Lobby">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>581</X>
+			<Y>214</Y>
+			<W>218</W>
+			<H>350</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT></TEXT>
+		<TITLEBAR>true</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+	</FRAME>
+	<COMBOBOX item="StageArray" parent="Lobby_StageList">
+		<COMBOBOXLOOK>NormalButtonLook</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBox2Look</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>20</Y>
+			<W>218</W>
+			<H>20</H>
+		</BOUNDS>
+		<LISTITEM selected="true">모두 보기</LISTITEM>
+		<LISTITEM>대기방 보기</LISTITEM>
+		<DROPSIZE>40</DROPSIZE>
+	</COMBOBOX>
+	<PICTURE item="StageArray_combo" parent="StageArray">
+		<BOUNDS>
+			<X>195</X>
+			<Y>2</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>down_combo.tga</BITMAP>
+	</PICTURE>
+	-->
+	<!--
+	<STAGEINFOBOX item="StageList" parent="Lobby_StageList">
+		<STAGEINFOITEMLOOK>NormalListBoxLook2</STAGEINFOITEMLOOK>
+		<BOUNDS>
+			<X>2</X>
+			<Y>40</Y>
+			<W>214</W>
+			<H>280</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<SELECTED>false</SELECTED>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+		<TEXT></TEXT>
+	</STAGEINFOBOX>
+	-->
+	<!--
+	<BUTTON item="StageJoin" parent="Lobby_StageList">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>320</Y>
+			<W>110</W>
+			<H>30</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>게임 참가</TEXT>
+	</BUTTON>
+	<BUTTON item="StageCreateFrameCaller" parent="Lobby_StageList">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>110</X>
+			<Y>320</Y>
+			<W>110</W>
+			<H>30</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>게임 생성</TEXT>
+	</BUTTON>
+	-->
+<!--	<BUTTON item="StageListFrameCaller" parent="Lobby_StageList">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>146</X>
+			<Y>320</Y>
+			<W>73</W>
+			<H>30</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>새로고침</TEXT>
+	</BUTTON>
+-->	
+
+	<!-- 아래 버튼 배열 -->
+
+<!--
+	<BUTTON item="MenuFrameCaller" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>569</Y>
+			<W>99</W>
+			<H>30</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>메뉴 (&amp;Esc)</TEXT>
+	</BUTTON>
+-->
+<!--
+	<BUTTON item="ShopCaller" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>569</Y>
+			<W>99</W>
+			<H>30</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>상점(&amp;S)</TEXT>
+	</BUTTON>
+	<BUTTON item="EquipmentCaller" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>100</X>
+			<Y>569</Y>
+			<W>99</W>
+			<H>30</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>장비(&amp;E)</TEXT>
+	</BUTTON>
+	<BUTTON item="CharSelectionCaller" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>201</X>
+			<Y>569</Y>
+			<W>99</W>
+			<H>30</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>캐릭터변경(&amp;D)</TEXT>
+	</BUTTON>
+	<BUTTON item="Logout" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>480</X>
+			<Y>569</Y>
+			<W>99</W>
+			<H>30</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+		<TEXT>로그아웃(&amp;X)</TEXT>
+		<CONFIRMMESSAGE>GUNZ를 종료하시겠습니까?</CONFIRMMESSAGE>
+		<CONFIRMLOOK>NormalFrameLook</CONFIRMLOOK>
+	</BUTTON>
+
+	<BUTTON item="QuickJoin" parent="Lobby">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>581</X>
+			<Y>569</Y>
+			<W>218</W>
+			<H>30</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<TEXT>바로 게임하기(&amp;Q)</TEXT>
+	</BUTTON>
+	-->
+<!--
+	<BUTTON item="ChannelListFrameCaller" parent="Lobby_ChatFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>279</X>
+			<Y>0</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<TEXT>채널 변경</TEXT>
+	</BUTTON>
+-->
+<!--
+	<BUTTON item="ChannelListFrameCaller" parent="Lobby_ChatFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>280</X>
+			<Y>0</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<TEXT>채널 변경</TEXT>
+		<CLIP>false</CLIP>
+	</BUTTON>
+	-->
+	<!-- 채널 채팅 -->
+	<!--
+	<FRAME item="Lobby_ChatFrame" parent="Lobby">
+	<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>150</X>
+			<Y>355</Y>
+			<W>425</W>
+			<H>200</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<TITLEBAR>true</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+	</FRAME>		
+	-->
+	<LISTBOX item="ChannelChattingOutput" parent="Lobby">
+	<LISTBOXLOOK>NullListBoxLook</LISTBOXLOOK>
+		<BOUNDS>
+			<X>160</X>
+			<Y>380</Y>
+			<W>415</W>
+			<H>145</H>
+		</BOUNDS>
+		<SELECTED>false</SELECTED>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+		<TEXT></TEXT>
+	</LISTBOX>
+	<PICTURE item="ChannelChattingInputFrame" parent="Lobby">
+		<BITMAP>chat-chang.tga</BITMAP>
+		<BOUNDS>
+			<X>155</X>
+			<Y>528</Y>
+			<W>415</W>
+			<H>22</H>
+		</BOUNDS>
+		<STRETCH/>
+	</PICTURE>
+	<EDIT item="ChannelChattingInput" parent="Lobby">
+	<EDITLOOK>NullEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>170</X>
+			<Y>533</Y>
+			<W>400</W>
+			<H>16</H>
+		</BOUNDS>
+	</EDIT>
+	
+	<BMBUTTON item="ShopCaller" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>160</X>
+			<Y>25</Y>
+			<W>88</W>
+			<H>30</H>
+		</BOUNDS>
+		<BITMAP type="up">button01.tga</BITMAP>
+		<BITMAP type="over">button01.tga</BITMAP>
+		<BITMAP type="down">button01.tga</BITMAP>
+		<TEXT>상점(&amp;S)</TEXT>
+		<STRETCH/>
+	</BMBUTTON>
+	<BMBUTTON item="EquipmentCaller" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>275</X>
+			<Y>25</Y>
+			<W>88</W>
+			<H>30</H>
+		</BOUNDS>
+		<BITMAP type="up">button01.tga</BITMAP>
+		<BITMAP type="over">button01.tga</BITMAP>
+		<BITMAP type="down">button01.tga</BITMAP>
+		<TEXT>장비(&amp;E)</TEXT>
+		<STRETCH/>
+	</BMBUTTON>
+	<BMBUTTON item="CharSelectionCaller" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>500</X>
+			<Y>563</Y>
+			<W>137</W>
+			<H>35</H>
+		</BOUNDS>
+		<BITMAP type="up">button02.tga</BITMAP>
+		<BITMAP type="over">button02.tga</BITMAP>
+		<BITMAP type="down">button02.tga</BITMAP>
+		<TEXT>캐릭터변경(&amp;D)</TEXT>
+		<STRETCH/>
+	</BMBUTTON>
+	<BMBUTTON item="Logout" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>405</X>
+			<Y>563</Y>
+			<W>137</W>
+			<H>35</H>
+		</BOUNDS>
+		<BITMAP type="up">button02.tga</BITMAP>
+		<BITMAP type="over">button02.tga</BITMAP>
+		<BITMAP type="down">button02.tga</BITMAP>
+		<TEXT>로그아웃(&amp;X)</TEXT>
+		<STRETCH/>
+	</BMBUTTON>
+	<BMBUTTON item="QuickJoin" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>605</X>
+			<Y>563</Y>
+			<W>137</W>
+			<H>35</H>
+		</BOUNDS>
+		<BITMAP type="up">button03.tga</BITMAP>
+		<BITMAP type="over">button03.tga</BITMAP>
+		<BITMAP type="down">button03.tga</BITMAP>
+		<TEXT>게임바로하기(&amp;Q)</TEXT>
+		<STRETCH/>
+	</BMBUTTON>
+	<BMBUTTON item="ChannelListFrameCaller" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>574</X>
+			<Y>25</Y>
+			<W>137</W>
+			<H>35</H>
+		</BOUNDS>
+		<BITMAP type="up">button01.tga</BITMAP>
+		<BITMAP type="over">button01.tga</BITMAP>
+		<BITMAP type="down">button01.tga</BITMAP>
+		<TEXT>채널변경</TEXT>
+		<STRETCH/>
+	</BMBUTTON>
+	
+	<BMBUTTON item="OptionFrame" parent="Lobby">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>689</X>
+			<Y>25</Y>
+			<W>88</W>
+			<H>30</H>
+		</BOUNDS>
+		<BITMAP type="up">button01.tga</BITMAP>
+		<BITMAP type="over">button01.tga</BITMAP>
+		<BITMAP type="down">button01.tga</BITMAP>
+		<TEXT>옵 션(&amp;O)</TEXT>
+		<STRETCH/>
+	</BMBUTTON>
+	
+	<TEXTAREA item="XPTeller" parent="Lobby">
+		<BOUNDS>
+			<X>60</X>
+			<Y>410</Y>
+			<W>40</W>
+			<H>20</H>
+		</BOUNDS>
+		<VISIBLE>true</VISIBLE>
+		<EDITABLE>false</EDITABLE>
+	</TEXTAREA>
+	<TEXTAREA item="BountyTeller" parent="Lobby">
+		<BOUNDS>
+			<X>40</X>
+			<Y>380</Y>
+			<W>70</W>
+			<H>20</H>
+		</BOUNDS>
+		<VISIBLE>true</VISIBLE>
+		<EDITABLE>false</EDITABLE>
+	</TEXTAREA>
+</XML>

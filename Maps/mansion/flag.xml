@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<xml>
+	<FLAG NAME="obj_flag_curtain 01.elu" DIRECTION="-30" POWER="200">
+		<RESTRICTION AXIS="1" POSITION ="-2393.0" COMPARE="1" />
+	</FLAG>
+	<FLAG NAME="obj_flag_curtain 02.elu" DIRECTION="20" POWER="220">
+		<RESTRICTION AXIS="1" POSITION ="-2393.0" COMPARE="1" />
+	</FLAG>
+</xml>

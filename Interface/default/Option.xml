@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Option">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="Option">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>-1</W>
+			<H>-1</H>
+		</BOUNDS>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+
+	<FRAME item="OptionGroup" parent="Option">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>7</X>
+			<Y>273</Y>
+			<W>256</W>
+			<H>323</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<VISIBLE>TRUE</VISIBLE>
+		<RESIZABLE>false</RESIZABLE>
+		<TEXT>옵션</TEXT>
+	</FRAME>
+
+<!-- Video -->
+	<FRAME item="VideoOptionGroup" parent="OptionGroup">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>40</Y>
+			<W>253</W>
+			<H>281</H>
+		</BOUNDS>
+		<VISIBLE>TRUE</VISIBLE>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<MOVABLE>false</MOVABLE>
+	</FRAME>
+	<LABEL item="Label" parent="VideoOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>3</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>해상도</TEXT>
+	</LABEL>
+	
+	<COMBOBOX item="ScreenResolution" parent="VideoOptionGroup">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>105</X>
+			<Y>3</Y>
+			<W>140</W>
+			<H>16</H>
+		</BOUNDS>
+	</COMBOBOX>
+	
+	<LABEL item="Label" parent="VideoOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>24</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>밝기</TEXT>
+	</LABEL>
+	<SLIDER item="VideoGamma" parent="VideoOptionGroup">
+		<BOUNDS>
+			<X>105</X>
+			<Y>24</Y>
+			<W>140</W>
+			<H>16</H>
+		</BOUNDS>
+	</SLIDER>
+	<LABEL item="Label" parent="VideoOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>45</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>반사효과</TEXT>
+	</LABEL>
+	<BUTTON item="Reflection" parent="VideoOptionGroup">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>229</X>
+			<Y>45</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+	</BUTTON>
+	<!--
+	<COMBOBOX item="Reflection" parent="VideoOptionGroup">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		<BOUNDS>
+			<X>105</X>
+			<Y>45</Y>
+			<W>140</W>
+			<H>16</H>
+		</BOUNDS>
+	</COMBOBOX>
+	-->
+	<LABEL item="Label" parent="VideoOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>66</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>라이트맵</TEXT>
+	</LABEL>
+	<BUTTON item="LightMap" parent="VideoOptionGroup">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>229</X>
+			<Y>66</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+	</BUTTON>
+	<LABEL item="Shader Label" parent="VideoOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>87</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>쉐이더</TEXT>
+	</LABEL>
+	<BUTTON item="Shader" parent="VideoOptionGroup">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>229</X>
+			<Y>87</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+	</BUTTON>
+	<LABEL item="Label" parent="VideoOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>108</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>동적라이트</TEXT>
+	</LABEL>
+	<BUTTON item="DynamicLight" parent="VideoOptionGroup">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>229</X>
+			<Y>108</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+	</BUTTON>
+
+	<LABEL item="Label" parent="VideoOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>130</Y>
+			<W>150</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>캐릭터 이미지 품질</TEXT>
+	</LABEL>
+
+	<LABEL item="Label" parent="VideoOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>150</Y>
+			<W>150</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>배경 이미지 품질</TEXT>
+	</LABEL>
+	
+	<COMBOBOX item="CharTexLevel" parent="VideoOptionGroup">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		
+		<BOUNDS>
+			<X>165</X>
+			<Y>130</Y>
+			<W>80</W>
+			<H>16</H>
+		</BOUNDS>
+		
+		<LISTITEM selected="true">좋음</LISTITEM>
+		<LISTITEM>보통</LISTITEM>
+		<LISTITEM>나쁨</LISTITEM>
+		<DROPSIZE>80</DROPSIZE>
+		<COMBOTYPE>1</COMBOTYPE>
+
+		
+	</COMBOBOX>
+
+	<COMBOBOX item="MapTexLevel" parent="VideoOptionGroup">
+		<COMBOBOXLOOK>NormalButton2Look</COMBOBOXLOOK>
+		<COMBOLISTBOXLOOK>NormalComboListBoxLook</COMBOLISTBOXLOOK>
+		
+		<BOUNDS>
+			<X>165</X>
+			<Y>150</Y>
+			<W>80</W>
+			<H>16</H>
+		</BOUNDS>
+		
+		<LISTITEM selected="true">좋음</LISTITEM>
+		<LISTITEM>보통</LISTITEM>
+		<LISTITEM>나쁨</LISTITEM>
+		<DROPSIZE>80</DROPSIZE>
+		<COMBOTYPE>1</COMBOTYPE>
+	</COMBOBOX>
+	
+	
+<!-- Audio -->
+	<FRAME item="AudioOptionGroup" parent="OptionGroup">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>40</Y>
+			<W>253</W>
+			<H>281</H>
+		</BOUNDS>
+		<VISIBLE>FALSE</VISIBLE>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<MOVABLE>false</MOVABLE>
+	</FRAME>
+	<LABEL item="Label" parent="AudioOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>3</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>배경음악</TEXT>
+	</LABEL>
+	<SLIDER item="BGMVolumeSlider" parent="AudioOptionGroup">
+		<BOUNDS>
+			<X>105</X>
+			<Y>3</Y>
+			<W>140</W>
+			<H>16</H>
+		</BOUNDS>
+	</SLIDER>
+	<LABEL item="Label" parent="AudioOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>24</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>효과음</TEXT>
+	</LABEL>
+	<SLIDER item="EffectVolumeSlider" parent="AudioOptionGroup">
+		<BOUNDS>
+			<X>105</X>
+			<Y>24</Y>
+			<W>140</W>
+			<H>16</H>
+		</BOUNDS>
+	</SLIDER>
+
+<!-- Mouse Option -->
+	<FRAME item="MouseOptionGroup" parent="OptionGroup">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>40</Y>
+			<W>253</W>
+			<H>281</H>
+		</BOUNDS>
+		<VISIBLE>FALSE</VISIBLE>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<MOVABLE>false</MOVABLE>
+	</FRAME>
+	<LABEL item="Label" parent="MouseOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>3</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>마우스 감도</TEXT>
+	</LABEL>
+	<SLIDER item="MouseSensitivitySlider" parent="MouseOptionGroup">
+		<BOUNDS>
+			<X>105</X>
+			<Y>3</Y>
+			<W>140</W>
+			<H>16</H>
+		</BOUNDS>
+	</SLIDER>
+
+<!-- Keyboard Option -->
+	<FRAME item="KeyboardOptionGroup" parent="OptionGroup">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>40</Y>
+			<W>253</W>
+			<H>281</H>
+		</BOUNDS>
+		<VISIBLE>FALSE</VISIBLE>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<MOVABLE>false</MOVABLE>
+	</FRAME>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>3</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>앞으로 가기</TEXT>
+	</LABEL>
+	<ACTIONKEY item="ForwardActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>3</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>24</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>뒤로 가기</TEXT>
+	</LABEL>
+	<ACTIONKEY item="BackActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>24</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>45</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>왼쪽으로 가기</TEXT>
+	</LABEL>
+	<ACTIONKEY item="LeftActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>45</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>66</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>오른쪽으로 가기</TEXT>
+	</LABEL>
+	<ACTIONKEY item="RightActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>66</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>87</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>근접 무기 선택</TEXT>
+	</LABEL>
+	<ACTIONKEY item="MeleeWeaponActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>87</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>108</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>주 무기 선택</TEXT>
+	</LABEL>
+	<ACTIONKEY item="PrimaryWeaponActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>108</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>129</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>보조 무기 선택</TEXT>
+	</LABEL>
+	<ACTIONKEY item="SecondaryWeaponActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>129</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>140</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>아이템1 선택</TEXT>
+	</LABEL>
+	<ACTIONKEY item="Item1ActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>140</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>161</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>아이템2 선택</TEXT>
+	</LABEL>
+	<ACTIONKEY item="Item2ActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>161</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>182</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>재장전</TEXT>
+	</LABEL>
+	<ACTIONKEY item="ReloadActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>182</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>203</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>점수 보기</TEXT>
+	</LABEL>
+	<ACTIONKEY item="ScoreActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>203</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+	<LABEL item="Label" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>2</X>
+			<Y>224</Y>
+			<W>100</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>메뉴</TEXT>
+	</LABEL>
+	<ACTIONKEY item="MenuActionKey" parent="KeyboardOptionGroup">
+		<BOUNDS>
+			<X>195</X>
+			<Y>224</Y>
+			<W>53</W>
+			<H>16</H>
+		</BOUNDS>
+	</ACTIONKEY>
+
+	<!-- 옵션 메뉴 버튼들 -->
+	<BUTTON item="ShowVideoOptionGroup" parent="OptionGroup">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<BOUNDS>
+			<X>2</X>
+			<Y>20</Y>
+			<W>63</W>
+			<H>19</H>
+		</BOUNDS>
+		<TEXT>비디오</TEXT>
+		<PUSHBUTTON/>
+		<SETCHECK/>
+	</BUTTON>
+	<BUTTON item="ShowAudioOptionGroup" parent="OptionGroup">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<BOUNDS>
+			<X>65</X>
+			<Y>20</Y>
+			<W>63</W>
+			<H>19</H>
+		</BOUNDS>
+		<TEXT>오디오</TEXT>
+		<PUSHBUTTON/>
+	</BUTTON>
+	<BUTTON item="ShowMouseOptionGroup" parent="OptionGroup">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<BOUNDS>
+			<X>128</X>
+			<Y>20</Y>
+			<W>63</W>
+			<H>19</H>
+		</BOUNDS>
+		<TEXT>마우스</TEXT>
+		<PUSHBUTTON/>
+	</BUTTON>
+	<BUTTON item="ShowKeyboardOptionGroup" parent="OptionGroup">
+		<BUTTONLOOK>NormalButton2Look</BUTTONLOOK>
+		<BOUNDS>
+			<X>191</X>
+			<Y>20</Y>
+			<W>63</W>
+			<H>19</H>
+		</BOUNDS>
+		<TEXT>키보드</TEXT>
+		<PUSHBUTTON/>
+	</BUTTON>
+
+<!-- 나가기 -->
+
+	<BUTTON item="SaveOptionButton" parent="OptionGroup">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>90</X>
+			<Y>296</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+		<TEXT>확 인(&amp;O)</TEXT>
+	</BUTTON>
+	<BUTTON item="CancelOptionButton" parent="OptionGroup">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>169</X>
+			<Y>296</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+		<TEXT>취 소(&amp;X)</TEXT>
+	</BUTTON>
+</XML>

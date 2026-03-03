@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Chat">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="ChatFrame">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>-1</Y>
+			<W>250</W>
+			<H>140</H>
+		</BOUNDS>
+		<TEXT>Main Chat</TEXT>
+		<CLOSE_BUTTON>
+			<ANCHORS>
+				<LEFT>false</LEFT>
+				<TOP>true</TOP>
+				<RIGHT>true</RIGHT>
+				<BOTTOM>false</BOTTOM>
+			</ANCHORS>
+			<BOUNDS>
+				<X>235</X>
+				<Y>2</Y>
+				<W>11</W>
+				<H>11</H>
+			</BOUNDS>			
+		</CLOSE_BUTTON>
+		<MINIMIZE_BUTTON>
+			<ANCHORS>
+				<LEFT>false</LEFT>
+				<TOP>true</TOP>
+				<RIGHT>true</RIGHT>
+				<BOTTOM>false</BOTTOM>
+			</ANCHORS>
+			<BOUNDS>
+				<X>220</X>
+				<Y>2</Y>
+				<W>11</W>
+				<H>11</H>
+			</BOUNDS>			
+		</MINIMIZE_BUTTON>
+	</FRAME>
+	<LISTBOX item="ChatOutput" parent="ChatFrame">
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>7</X>
+			<Y>22</Y>
+			<W>236</W>
+			<H>90</H>
+		</BOUNDS>
+		<SELECTED>false</SELECTED>
+	</LISTBOX>
+	<EDIT item="ChatInput" parent="ChatFrame">
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>7</X>
+			<Y>117</Y>
+			<W>236</W>
+			<H>18</H>
+		</BOUNDS>
+	</EDIT>
+</XML>

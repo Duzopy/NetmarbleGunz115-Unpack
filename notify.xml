@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<XML>
+	<NOTIFY id="100">스테이지가 이미 존재합니다</NOTIFY>
+	<NOTIFY id="101">존재하지 않는 스테이지입니다</NOTIFY>
+	<NOTIFY id="110">팀의 인원이 모두 찼습니다.</NOTIFY>
+</XML>

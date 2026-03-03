@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="euc-kr"?> 
+<!--  거리 단위 cm 기본값 : 200/4000, 1m = 100 
+  --> 
+<XML>
+  	<EFFECT NAME="we_grenade_explosion" MINDISTANCE="500" MAXDISTANCE="8000" /> 
+  	<EFFECT NAME="we_gasgrenade_explosion" MINDISTANCE="300" MAXDISTANCE="5000" /> 
+  	<EFFECT NAME="we_flashbang_explosion" MINDISTANCE="300" MAXDISTANCE="5000" /> 
+  	<EFFECT NAME="357magrevolver_dryfire" />
+  	<EFFECT NAME="357magrevolver_fire" />
+  	<EFFECT NAME="357magrevolver_reload" />
+  	<EFFECT NAME="762arifle_dryfire" />
+  	<EFFECT NAME="762arifle_fire" />
+  	<EFFECT NAME="762arifle_reload" />
+  	<EFFECT NAME="amb_wind" />
+  	<EFFECT NAME="bind_a_male" />
+  	<EFFECT NAME="blade_concrete" />
+  	<EFFECT NAME="blade_damage" />
+  	<EFFECT NAME="blade_swing" />
+  	<EFFECT NAME="death01_a_male" />
+  	<EFFECT NAME="explosion" />
+  	<EFFECT NAME="fx_amb_wind" />
+  	<EFFECT NAME="fx_blade_sheath" />
+  	<EFFECT NAME="fx_bladeon_concrete" />
+  	<EFFECT NAME="fx_bullethit_mt_con" />
+  	<EFFECT NAME="fx_bullethit_mt_drt" />
+  	<EFFECT NAME="fx_bullethit_mt_fsh" />
+  	<EFFECT NAME="fx_bullethit_mt_gls" />
+  	<EFFECT NAME="fx_bullethit_mt_met" />
+  	<EFFECT NAME="fx_bullethit_mt_snd" />
+  	<EFFECT NAME="fx_bullethit_mt_wat" />
+  	<EFFECT NAME="fx_bullethit_mt_wod" />
+  	<EFFECT NAME="fx_dagger_sheath" />
+  	<EFFECT NAME="fx_dash" />
+  	<EFFECT NAME="fx_explosion01" />
+  	<EFFECT NAME="fx_flashbang" />
+  	<EFFECT NAME="fx_respawn" />
+  	<EFFECT NAME="fx_slugdrop_mt_con" />
+  	<EFFECT NAME="fx_slugdrop_mt_met" />
+  	<EFFECT NAME="fx_slugdrop_mt_wod" />
+  	<EFFECT NAME="fx_whoosh01" />
+  	<EFFECT NAME="fx_whoosh02" />
+  	<EFFECT NAME="hangonwall" />
+  	<EFFECT NAME="hitbody00" />
+  	<EFFECT NAME="if_click" />
+  	<EFFECT NAME="if_error" />
+  	<EFFECT NAME="if_mouseover" />
+  	<EFFECT NAME="if_score_flyby" />
+  	<EFFECT NAME="if_score_get" />
+  	<EFFECT NAME="man_jump_mt_con" />
+  	<EFFECT NAME="man_jump_mt_drt" />
+  	<EFFECT NAME="man_jump_mt_met" />
+  	<EFFECT NAME="man_jump_mt_snd" />
+  	<EFFECT NAME="man_jump_mt_wat" />
+  	<EFFECT NAME="man_jump_mt_wod" />
+  	<EFFECT NAME="man_run_mt_con" />
+  	<EFFECT NAME="man_run_mt_drt" />
+  	<EFFECT NAME="man_run_mt_met" />
+  	<EFFECT NAME="man_run_mt_snd" />
+  	<EFFECT NAME="man_run_mt_wod" />
+  	<EFFECT NAME="nice" />
+  	<EFFECT NAME="ooh_female" />
+  	<EFFECT NAME="ooh_male" />
+  	<EFFECT NAME="rebirth" />
+  	<EFFECT NAME="ricochet_concrete01" />
+  	<EFFECT NAME="rocket_fire" />
+  	<EFFECT NAME="rocket_flying" />
+  	<EFFECT NAME="run_a_male" />
+  	<EFFECT NAME="shotgun_fire" />
+  	<EFFECT NAME="shotgun_reload" />
+  	<EFFECT NAME="slugfall" />
+  	<EFFECT NAME="uppercut" />
+  	<EFFECT NAME="we_grenade_fire" />
+  	<EFFECT NAME="we_rocket_fire" />
+  	<EFFECT NAME="we_shotgunpa_fire" />
+  	<EFFECT NAME="we_shotgunpa_reload" />
+</XML>

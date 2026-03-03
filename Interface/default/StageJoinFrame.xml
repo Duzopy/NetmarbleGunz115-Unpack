@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="StageJoin">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="StageJoinFrame">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>316</W>
+			<H>105</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>게임 참가</TEXT>
+	</FRAME>
+	<LABEL item="Label" parent="StageJoinFrame">
+		<BOUNDS>
+			<X>5</X>
+			<Y>31</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>게임  제목</TEXT>
+	</LABEL>	
+	<LABEL item="Label" parent="StageJoinFrame">
+		<BOUNDS>
+			<X>5</X>
+			<Y>52</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>비밀  번호</TEXT>
+	</LABEL>	
+	<EDIT item="JoinStageName" parent="StageJoinFrame">
+		<BOUNDS>
+			<X>78</X>
+			<Y>31</Y>
+			<W>231</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>No Named</TEXT>
+	</EDIT>
+	<EDIT item="JoinStagePassword" parent="StageJoinFrame">
+		<BOUNDS>
+			<X>78</X>
+			<Y>52</Y>
+			<W>231</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</EDIT>
+	<BUTTON item="StageJoinBtn" parent="StageJoinFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>151</X>
+			<Y>78</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>확 인(&amp;O)</TEXT>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+	</BUTTON>
+	<BUTTON item="ParentClose" parent="StageJoinFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>230</X>
+			<Y>78</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>취 소(&amp;X)</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>

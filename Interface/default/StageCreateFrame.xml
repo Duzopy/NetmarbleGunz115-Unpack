@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="StageList">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="StageCreateFrame">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>316</W>
+			<H>105</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>게임 생성</TEXT>
+	</FRAME>
+	<LABEL item="Label" parent="StageCreateFrame">
+		<BOUNDS>
+			<X>5</X>
+			<Y>31</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>게임  제목</TEXT>
+	</LABEL>	
+	<LABEL item="Label" parent="StageCreateFrame">
+		<BOUNDS>
+			<X>5</X>
+			<Y>52</Y>
+			<W>72</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>비밀  번호</TEXT>
+	</LABEL>	
+	<EDIT item="StageName" parent="StageCreateFrame">
+		<BOUNDS>
+			<X>78</X>
+			<Y>29</Y>
+			<W>231</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>No Named</TEXT>
+	</EDIT>
+	<EDIT item="StagePassword" parent="StageCreateFrame">
+		<BOUNDS>
+			<X>78</X>
+			<Y>50</Y>
+			<W>231</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</EDIT>
+<!--
+	<BUTTON item="StagePrivateBtn" parent="StageCreateFrame">
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>fals</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>90</X>
+			<Y>120</Y>
+			<W>28</W>
+			<H>28</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</BUTTON>
+	<LABEL item="Label" parent="StageCreateFrame">
+		<BOUNDS>
+			<X>127</X>
+			<Y>120</Y>
+			<W>110</W>
+			<H>25</H>
+		</BOUNDS>
+		<TEXT>비공개방</TEXT>
+	</LABEL>
+-->
+	<BUTTON item="StageCreateBtn" parent="StageCreateFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>151</X>
+			<Y>78</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>확 인(&amp;O)</TEXT>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+	</BUTTON>
+	<BUTTON item="ParentClose" parent="StageCreateFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>230</X>
+			<Y>78</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>취 소(&amp;X)</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Stage">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="MapFrame">
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>400</W>
+			<H>300</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<TEXT>맵 선택</TEXT>
+	</FRAME>
+	<MAPLISTBOX item="MapList" parent="MapFrame">
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>20</X>
+			<Y>40</Y>
+			<W>380</W>
+			<H>190</H>
+		</BOUNDS>
+	</MAPLISTBOX>
+	<BUTTON item="MapSelect" parent="MapFrame">
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>170</X>
+			<Y>250</Y>
+			<W>100</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXT>확인 (&amp;O)</TEXT>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+	</BUTTON>
+	<BUTTON item="ParentClose" parent="MapFrame">
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>280</X>
+			<Y>250</Y>
+			<W>100</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXT>취소 (&amp;X)</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="CharDetail">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="CharDetail">
+		<FRAMELOOK>Black2FrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>320</W>
+			<H>460</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT></TEXT>
+	</FRAME>
+
+
+	<!-- 장비 정보-->
+
+	<PICTURE item="Frame11_7" parent="CharDetail">
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>frame11_7.bmp</BITMAP>
+	</PICTURE>
+	<PICTURE item="Frame11_9" parent="CharDetail">
+		<BOUNDS>
+			<X>300</X>
+			<Y>0</Y>
+			<W>16</W>
+			<H>16</H>
+		</BOUNDS>
+		<BITMAP>frame11_9.bmp</BITMAP>
+	</PICTURE>
+	<BUTTON item="CharDetail_CharNameInput" parent="CharDetail">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>20</X>
+			<Y>0</Y>
+			<W>280</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<ENABLE>false</ENABLE>
+	</BUTTON>
+	<CHARACTERVIEW item="EquipmentInformation" parent="CharDetail">
+		<BOUNDS>
+			<X>0</X>
+			<Y>20</Y>
+			<W>256</W>
+			<H>346</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<VISIBLEEQUIPMENT>true</VISIBLEEQUIPMENT>
+	</CHARACTERVIEW>
+
+	<BMBUTTON item="Charviewer_Rotate_L" parent="CharDetail">
+		<BOUNDS>
+			<X>32</X>
+			<Y>345</Y>
+			<W>32</W>
+			<H>32</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+			<BITMAP type="up">rotate02_L_0.tga</BITMAP>
+			<BITMAP type="over">rotate02_L_1.tga</BITMAP>
+			<BITMAP type="down">rotate02_L_2.tga</BITMAP>
+	</BMBUTTON>
+	<BMBUTTON item="Charviewer_Rotate_R" parent="CharDetail">
+		<BOUNDS>
+			<X>192</X>
+			<Y>345</Y>
+			<W>32</W>
+			<H>32</H>
+		</BOUNDS>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+			<BITMAP type="up">rotate02_R_0.tga</BITMAP>
+			<BITMAP type="over">rotate02_R_1.tga</BITMAP>
+			<BITMAP type="down">rotate02_R_2.tga</BITMAP>
+	</BMBUTTON>
+
+
+	<!-- 버튼 -->
+
+	<BUTTON item="BuyConfirmCaller" parent="CharDetail">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>0</X>
+			<Y>430</Y>
+			<W>99</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXT>사 기</TEXT>
+	</BUTTON>
+	<BUTTON item="ParentClose" parent="CharDetail">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>221</X>
+			<Y>430</Y>
+			<W>99</W>
+			<H>30</H>
+		</BOUNDS>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+		<TEXT>닫 기 (&amp;X)</TEXT>
+	</BUTTON>
+
+</XML>

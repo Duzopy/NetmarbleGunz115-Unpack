@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="StageList">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="StageListFrame">
+		<BOUNDS>
+			<X>0</X>
+			<Y>150</Y>
+			<W>500</W>
+			<H>400</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<TEXT>게임 리스트</TEXT>
+	</FRAME>
+	<LISTBOX item="StageList" parent="StageListFrame">
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>20</X>
+			<Y>40</Y>
+			<W>460</W>
+			<H>300</H>
+		</BOUNDS>
+	</LISTBOX>
+	<BUTTON item="StageJoin" parent="StageListFrame">
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>270</X>
+			<Y>350</Y>
+			<W>100</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXT>확인 (&amp;O)</TEXT>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+	</BUTTON>
+	<BUTTON item="ParentClose" parent="StageListFrame">
+		<ANCHORS>
+			<LEFT>false</LEFT>
+			<TOP>false</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>380</X>
+			<Y>350</Y>
+			<W>100</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXT>취소 (&amp;X)</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>

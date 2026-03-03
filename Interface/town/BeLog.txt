@@ -1,0 +1,222 @@
+Starting BSP Export...
+export :: ground01
+export :: ground02
+export :: fence01
+export :: fence02
+export :: chimney
+export :: chimney01
+export :: chimney02
+export :: factory01
+export :: factory07
+export :: chimney09
+export :: chimney10
+export :: chimney12
+export :: factory13
+export :: conbelt01
+export :: tank
+export :: tank01
+export :: smoke01
+export :: frame01
+export :: smoke02
+export :: factory17
+export :: smoke03
+export :: frame02
+export :: smoke04
+export :: asky
+export :: windmill04
+export :: conbelt02
+export :: tank02
+export :: tank03
+export :: mask01
+export :: mask02
+export :: mask03
+export :: factory02
+export :: factory03
+export :: factory08
+export :: factory04
+export :: factory05
+export :: factory06
+export :: factory09
+export :: factory10
+export :: mask05
+export :: mask04
+export :: chimney13
+export :: mask06
+export :: mask07
+export :: town
+export :: add05
+export :: add06
+export :: add07
+export :: add09
+export :: add16
+export :: add18
+export :: add19
+export :: add20
+export :: add27
+export :: add28
+export :: add32
+export :: add39
+export :: add40
+export :: add41
+export :: add42
+export :: add43
+export :: add44
+export :: add45
+export :: add46
+export :: add47
+export :: add48
+export :: add49
+export :: add50
+export :: add51
+export :: add52
+export :: add53
+export :: add54
+export :: add55
+export :: add56
+export :: add57
+export :: add58
+export :: add59
+export :: add60
+export :: add61
+export :: add62
+export :: add63
+export :: add64
+export :: add65
+export :: add66
+export :: add67
+export :: add68
+export :: add69
+export :: add70
+export :: add71
+export :: shadow01
+export :: shadow02
+export :: shadow03
+export :: fence
+export :: add72
+export :: add73
+export :: add74
+export :: add75
+export :: conbelt03
+export :: Plane01
+export :: Plane02
+export :: windmill01
+export :: windmill05
+Mesh ground01
+Mesh ground02
+Mesh fence01
+Mesh fence02
+Mesh chimney
+Mesh chimney01
+Mesh chimney02
+Mesh factory01
+Mesh factory07
+Mesh chimney09
+Mesh chimney10
+Mesh chimney12
+Mesh factory13
+Mesh conbelt01
+Mesh tank
+Mesh tank01
+Mesh smoke01
+Mesh frame01
+Mesh smoke02
+Mesh factory17
+Mesh smoke03
+Mesh frame02
+Mesh smoke04
+Mesh asky
+Mesh windmill04
+Mesh conbelt02
+Mesh tank02
+Mesh tank03
+Mesh mask01
+Mesh mask02
+Mesh mask03
+Mesh factory02
+Mesh factory03
+Mesh factory08
+Mesh factory04
+Mesh factory05
+Mesh factory06
+Mesh factory09
+Mesh factory10
+Mesh mask05
+Mesh mask04
+Mesh chimney13
+Mesh mask06
+Mesh mask07
+Mesh town
+Mesh add05
+Mesh add06
+Mesh add07
+Mesh add09
+Mesh add16
+Mesh add18
+Mesh add19
+Mesh add20
+Mesh add27
+Mesh add28
+Mesh add32
+Mesh add39
+Mesh add40
+Mesh add41
+Mesh add42
+Mesh add43
+Mesh add44
+Mesh add45
+Mesh add46
+Mesh add47
+Mesh add48
+Mesh add49
+Mesh add50
+Mesh add51
+Mesh add52
+Mesh add53
+Mesh add54
+Mesh add55
+Mesh add56
+Mesh add57
+Mesh add58
+Mesh add59
+Mesh add60
+Mesh add61
+Mesh add62
+Mesh add63
+Mesh add64
+Mesh add65
+Mesh add66
+Mesh add67
+Mesh add68
+Mesh add69
+Mesh add70
+Mesh add71
+Mesh shadow01
+Mesh shadow02
+Mesh shadow03
+Mesh fence
+Mesh add72
+Mesh add73
+Mesh add74
+Mesh add75
+Mesh conbelt03
+Mesh Plane01
+Mesh Plane02
+Mesh windmill01
+Mesh windmill05
+Preprocessing ok.
+RSBsp Info : 1168 faces
+0 faces elliminated.
+Scene Dimension ( 4585.2 2719.4 3320.8 )
+Export description.. 
+Saving Source Data.
+Generating Convex polygons...
+Constructing OcTree.
+Octree Info : total 144 faces splitted 20 leaf nodes
+Constructing BspTree.
+RSBsp Info : total 13569 faces splitted 2487 leaf nodes
+Constructing Bsp Bounding Volumes.
+Saving Bsp information.
+D:\Project\Gunz the Duel\Meshes\interface\town\town.RS file saved
+D:\Project\Gunz the Duel\Meshes\interface\town\town.RS.bsp file saved
+Exporting takes 0 minutes and      4 seconds.
+Done.

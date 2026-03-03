@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Login">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="Login">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>-1</W>
+			<H>-1</H>
+		</BOUNDS>
+	</FRAME>
+
+	<FRAME item="LoginFrame" parent="Login">
+		<FRAMELOOK>NormalFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>294</W>
+			<H>145</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<TITLEBAR>true</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+		<TEXT>로그인</TEXT>
+	</FRAME>
+
+<!--
+	<GROUP item="LoginFrame" parent="Login">
+		<GROUPLOOK>NormalGroupLook</GROUPLOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>214</W>
+			<H>145</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<TEXT>로그인</TEXT>
+	</GROUP>
+-->
+	<LABEL item="Label" parent="LoginFrame">
+		<BOUNDS>
+			<X>3</X>
+			<Y>124</Y>
+			<W>64</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>서버 IP</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="LoginFrame">
+		<BOUNDS>
+			<X>3</X>
+			<Y>31</Y>
+			<W>64</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>아 이 디</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="LoginFrame">
+		<BOUNDS>
+			<X>3</X>
+			<Y>52</Y>
+			<W>64</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>비밀 번호</TEXT>
+	</LABEL>
+	<EDIT item="ServerAddress" parent="LoginFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>60</X>
+			<Y>123</Y>
+			<W>180</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>gunz.battlearena.com</TEXT>
+	</EDIT>
+	<EDIT item="ServerPort" parent="LoginFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>245</X>
+			<Y>123</Y>
+			<W>44</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT>6000</TEXT>
+	</EDIT>
+	<EDIT item="LoginID" parent="LoginFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>78</X>
+			<Y>31</Y>
+			<W>209</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</EDIT>
+	<EDIT item="LoginPassword" parent="LoginFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<PASSWORD>true</PASSWORD>
+		<BOUNDS>
+			<X>78</X>
+			<Y>52</Y>
+			<W>209</W>
+			<H>16</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</EDIT>
+	<BUTTON item="LoginOK" parent="LoginFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>129</X>
+			<Y>73</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+		<TEXT>로그인(&amp;G)</TEXT>
+	</BUTTON>
+	<LABEL item="LoginError" parent="LoginFrame">
+		<BOUNDS>
+			<X>20</X>
+			<Y>175</Y>
+			<W>270</W>
+			<H>25</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	<BUTTON item="OptionFrame" parent="LoginFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>208</X>
+			<Y>73</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>옵 션(&amp;O)</TEXT>
+	</BUTTON>
+	<BUTTON item="Register" parent="LoginFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>129</X>
+			<Y>96</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>회원 가입</TEXT>
+	</BUTTON>
+	<BUTTON item="Exit" parent="LoginFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>208</X>
+			<Y>96</Y>
+			<W>79</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>종 료(&amp;X)</TEXT>
+		<CONFIRMMESSAGE>GUNZ를 종료하시겠습니까?</CONFIRMMESSAGE>
+		<CONFIRMLOOK>NormalFrameLook</CONFIRMLOOK>
+	</BUTTON>		
+</XML>
